@@ -1,0 +1,92 @@
+body{
+    background-color: lightgray;
+    color: floralwhite;
+    font: normal 18px Arial, Helvetica, sans-serif;
+
+    line-height: 2em;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.nmr1{
+    width: 70%;
+    margin: auto;
+}
+
+.nmr2{
+    background-color: darkslategray;
+    color: floralwhite;
+
+  border-right:5px green solid;
+  border-top:5px green solid;
+  border-left:5px green solid;
+  border-bottom:5px green solid;
+/* samma sak som nedanför */
+  border:5px green solid;
+
+
+  padding-top:20px;
+  padding-right:20px;
+  padding-left:20px;
+  padding-bottom:20px;
+  /* samma sak som nedanför */
+  padding:20px;
+}
+
+.nmr1 h1{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: oblique;
+    text-decoration: wavy;
+    text-transform: uppercase;
+    word-spacing:0.5em;
+}
+.nmr1 p{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: oblique;
+    text-decoration: wavy;
+    text-transform: none;
+    word-spacing:0.5em;
+}
+
+.nmr3{
+    border:3px blue dotted;
+    padding:20px;
+    margin:20px;
+    color: lightcoral;
+    background-color: darkslategrey;
+    font-size: 14px;
+    font-weight: 800;
+    font-style: inherit;
+    text-decoration: initial;
+    text-transform: capitalize;
+    word-spacing:0.2;
+
+}
+
+.lista{
+    border:1px black solid;
+    padding:10px;
+    border-radius:15px;
+    background-color: lightslategray;
+}
+
+.lista h2{
+    color: black;
+    text-align: center;
+
+}
+
+.lista ul{
+    padding:0;
+    list-style:none;
+}
+
+.lista li{
+    padding-bottom:6px;
+    border-bottom:dotted 1px black
+}
